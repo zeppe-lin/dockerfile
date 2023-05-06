@@ -14,10 +14,11 @@ REQUIREMENTS
 INSTALL
 -------
 1. Download the Zeppe-Lin rootfs tarball, or create your own with a
-   mkrootfs utility.  For example, we'll use the 2023-01-02 release:
+   mkrootfs utility.  We'll use the `v0.99` release just for example.
+   See [the following page][1] for current release.
 
 ```
-curl -LO https://github.com/zeppe-lin/pkgsrc/releases/download/2023-01-02/rootfs-2023-01-02-x86_64.tar.xz
+curl -LO https://github.com/zeppe-lin/pkgsrc-core/releases/download/v0.99/rootfs-v0.99-x86_64.tar.xz
 ```
 
 2. Edit `Dockerfile` conform your needs.
@@ -25,10 +26,11 @@ curl -LO https://github.com/zeppe-lin/pkgsrc/releases/download/2023-01-02/rootfs
 3. Build the image and run:
 
 ```
-docker build -t zeppe-lin:2023-01-02 .
-docker run -it --rm zeppe-lin:2023-01-02
+docker build -t zeppe-lin:v0.99 .
+docker run -it --rm zeppe-lin:v0.99
 ```
 
+[1]: https://github.com/zeppe-lin/pkgsrc-core/releases/latest
 
 LICENSE
 -------
