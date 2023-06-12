@@ -17,7 +17,7 @@ INSTALL
    mkrootfs utility.  We'll use the `v0.99` release just for example.
    See [the following page][1] for current release.
 
-```
+```sh
 curl -LO https://github.com/zeppe-lin/pkgsrc-core/releases/download/v0.99/rootfs-v0.99-x86_64.tar.xz
 ```
 
@@ -25,7 +25,7 @@ curl -LO https://github.com/zeppe-lin/pkgsrc-core/releases/download/v0.99/rootfs
 
 3. Build the image and run:
 
-```
+```sh
 docker build -t zeppe-lin:v0.99 .
 docker run -it --rm zeppe-lin:v0.99
 ```
