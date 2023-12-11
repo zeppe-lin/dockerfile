@@ -1,7 +1,7 @@
 OVERVIEW
 --------
-This directory contains a Dockerfile to build the Zeppe-Lin Docker
-image.
+This directory contains a Dockerfile to build the Zeppe-Lin
+Docker image.
 
 
 REQUIREMENTS
@@ -13,13 +13,14 @@ REQUIREMENTS
 
 INSTALL
 -------
-1. Download the Zeppe-Lin rootfs tarball, or create your own with a
-   mkrootfs utility.  We'll use the `v0.99` release just for example.
-   See [the following page][1] for current release.
+1. Download the Zeppe-Lin rootfs tarball, or create your own
+   with a mkrootfs utility.  We'll use the `v0.99` release just
+   for example.  See [the following page][1] for current
+   release.
 
-```sh
-curl -LO https://github.com/zeppe-lin/pkgsrc-core/releases/download/v0.99/rootfs-v0.99-x86_64.tar.xz
-```
+   ```sh
+   curl -LO https://github.com/zeppe-lin/pkgsrc-core/releases/download/v0.99/rootfs-v0.99-x86_64.tar.xz
+   ```
 
 2. Edit `Dockerfile` conform your needs.
 
