@@ -9,8 +9,8 @@ REQUIREMENTS
 
 Build time
 ----------
-* Zeppe-Lin rootfs tarball
-* Docker
+  * Zeppe-Lin rootfs tarball
+  * Docker
 
 
 INSTALL
