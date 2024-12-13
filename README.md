@@ -16,8 +16,8 @@ Build time
 INSTALL
 =======
 
-1. Download the Zeppe-Lin rootfs tarball, or create your own with a mkrootfs
-   utility.  We'll use the `v0.99.1` release just for example.
+1. Download the Zeppe-Lin rootfs tarball, or create your own with a
+   mkrootfs utility.  We'll use the `v0.99.1` release just for example.
    See [the following page][1] for current release.
 
    ```sh
