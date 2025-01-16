@@ -1,7 +1,7 @@
 OVERVIEW
 ========
 
-This directory contains a Dockerfile to build the Zeppe-Lin Docker
+This repository contains a Dockerfile to build the Zeppe-Lin Docker
 image.
 
 
