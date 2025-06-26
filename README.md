@@ -1,7 +1,7 @@
 OVERVIEW
 ========
 
-This repository contains a Dockerfile to build the Zeppe-Lin Docker
+This repository contains a `Dockerfile` to build the Zeppe-Lin Docker
 image.
 
 
@@ -18,7 +18,7 @@ INSTALL
 =======
 
 1. Download the Zeppe-Lin rootfs tarball, or create your own with a
-   mkrootfs utility.  We'll use the `v1.0` release just for example.
+   `mkrootfs` utility.  We'll use the `v1.0` release just for example.
    See [the following page][1] for current release.
 
    ```sh
@@ -40,5 +40,5 @@ INSTALL
 LICENSE
 =======
 
-This Dockerfile is licensed through WTFPLv2 License.
+This `Dockerfile` is licensed through WTFPLv2 License.
 See LICENSE file for copyright and license details.
